@@ -1,9 +1,9 @@
 local script_details = {
     debug = false,
-    version = "1.0.0",
+    version = "1.0.2d",
 }
 
-local url = script_details.debug and "http://localhost:6845" or "https://raw.githubusercontent.com/PDennSploit-Softworks-LLC/ALCATRAZ-PF-DEV/main"
+local url = script_details.debug and "http://localhost:6845" or "https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF-DEV/main"
 
 local out = script_details.debug and function(T, ...)
     return warn("[ALCATRAZ - DEBUG]: "..T:format(...))
