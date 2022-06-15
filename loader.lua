@@ -1,6 +1,6 @@
 local script_details = {
     debug = false,
-    version = "1.0.2d",
+    version = "1.0.0",
 }
 
 local url = script_details.debug and "http://localhost:6845" or "https://raw.githubusercontent.com/P-DennyGamingYT/ALCATRAZ-PF-DEV/main"
